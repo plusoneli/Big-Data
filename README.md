@@ -20,7 +20,7 @@ f.close()
 
 dict_n = []
 f = open('negative-words.txt', 'r')
-# f = open('negative-words.txt', 'r', encoding='ISO-8859-1') 
+f = open('negative-words.txt', 'r', encoding='ISO-8859-1') 
 for line in f:
     t = line.strip().lower()
     if t is not None and len(t) > 0:
