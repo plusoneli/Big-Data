@@ -1,8 +1,10 @@
 # NLTK Analysis Program
 This program is designed to evaluate the attitude on crawled text data from Twitter. 
-First, import pandas for graphing purpose
+
+# Import pandas for graphing purpose
 import pandas as pd
-Second, separate out the 'text' column from crawled csv file. 
+
+# Separate out the 'text' column from crawled csv file. 
 df = pd.read_csv('forestfire.csv',encoding = "ISO-8859-1")
 reviews = df[['text']]
 
